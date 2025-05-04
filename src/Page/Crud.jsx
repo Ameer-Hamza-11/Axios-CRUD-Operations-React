@@ -69,8 +69,8 @@ export const Crud = () => {
                         className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6 shadow-xl hover:scale-[1.02] hover:shadow-2xl transition-transform duration-300"
                     >
                         <strong className="text-xs text-pink-400">Post ID: {curTask.id}</strong>
-                        <h1 className="text-xl font-bold text-white mt-2 mb-1">{curTask.title}</h1>
-                        <p className="text-gray-300 mb-4">{curTask.body}</p>
+                        <h1 className="text-xl font-bold text-white mt-2 mb-1">Title: {curTask.title}</h1>
+                        <p className="text-gray-300 mb-4">Body: {curTask.body}</p>
                         <div className="flex gap-4">
                             <button className="cursor-pointer px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg shadow hover:opacity-90 transition"
                                 onClick={() => editApiData(curTask)}
